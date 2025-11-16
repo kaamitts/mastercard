@@ -22,10 +22,11 @@ mastercard.db*
 # Data (НЕ коммитим!)
 data/*.parquet
 data/*.csv
+!data/.gitkeep      
 
-# Logs
-logs/
-*.log
+# Logs (НЕ коммитим!)
+logs/*.log
+!logs/.gitkeep      
 
 # IDE
 .vscode/
@@ -33,3 +34,13 @@ logs/
 *.swp
 *.swo
 .DS_Store
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build
+dist/
+build/
+*.egg-info/
