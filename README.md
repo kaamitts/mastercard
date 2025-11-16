@@ -4,7 +4,7 @@
 
 1. **Скачай dataset.parquet** (600 MB)
 ```
-   Получи файл у Kana и положи в data/dataset.parquet
+   положи его в data/dataset.parquet
 ```
 
 2. **Установи зависимости:**
@@ -14,7 +14,6 @@
 
 3. **Настрой .env:**
 ```bash
-   cp .env.example .env
    # Добавь свой Frontend URL в CORS_ORIGINS
 ```
 
@@ -28,10 +27,10 @@
    python main.py
 ```
 
-6. **Запусти ngrok (для remote access):**
+<!-- 6. **Запусти ngrok (для remote access):**
 ```bash
    ngrok http 8000
-```
+``` -->
 
 7. **Используй публичный URL:**
 ```
@@ -40,7 +39,7 @@
 
 ### API Endpoints
 
-**Base URL:** `http://localhost:8000` или ngrok URL
+**Base URL:** `http://localhost:8000`
 
 **Main endpoint:**
 ```javascript
