@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# Environment
+.env
+.env.local
+
+# Database (НЕ коммитим!)
+*.db
+*.db-shm
+*.db-wal
+mastercard.db*
+
+# Data (НЕ коммитим!)
+data/*.parquet
+data/*.csv
+
+# Logs
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store

@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+duckdb
+pydantic
+pydantic-settings
+python-dotenv
+requests
+python-multipart
+gradio_client
